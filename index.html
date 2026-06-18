@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GuitarShop — Twój sklep gitarowy</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo">Guitar<span>Shop</span></a>
+    <nav>
+      <a href="index.html" class="active">Strona główna</a>
+      <a href="oferta.html">Sklep</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="oferta.html" class="nav-cta">Przeglądaj ofertę</a>
+    </nav>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Strona główna</a>
+    <a href="oferta.html">Sklep</a>
+    <a href="kontakt.html">Kontakt</a>
+    <a href="oferta.html" class="nav-cta" style="width:fit-content;">Przeglądaj ofertę</a>
+  </div>
+
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-eyebrow">Twój sklep gitarowy od 2008 roku</div>
+      <h1>Muzyka zaczyna się od <em>właściwej</em> gitary</h1>
+      <p>Oferujemy starannie wyselekcjonowane instrumenty dla muzyków na każdym poziomie zaawansowania — od pierwszych kroków po profesjonalne brzmienie sceniczne.</p>
+      <div class="btn-group">
+        <a href="oferta.html" class="btn-primary">Przeglądaj sklep →</a>
+        <a href="kontakt.html" class="btn-outline">Skontaktuj się</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="kategorie">
+    <div class="section-eyebrow">Nasza oferta</div>
+    <h2 class="section-title">Nasze kategorie</h2>
+    <p class="section-subtitle">Znajdź instrument, który odpowiada Twojemu stylowi gry i poziomowi zaawansowania.</p>
+    <div class="kategorie-grid">
+      <a href="oferta.html" class="kategoria-card">
+        <div class="kategoria-icon">🎸</div>
+        <h3>Gitary akustyczne</h3>
+        <p>Klasyczne brzmienie bez potrzeby wzmacniacza. Idealne do nauki i gry przy ognisku.</p>
+        <div class="kategoria-price">Od 500 zł</div>
+      </a>
+      <a href="oferta.html" class="kategoria-card">
+        <div class="kategoria-icon">⚡</div>
+        <h3>Gitary elektryczne</h3>
+        <p>Dla rockmanów i bluesmanów. Szeroki wybór od vintage po nowoczesne modele.</p>
+        <div class="kategoria-price">Od 800 zł</div>
+      </a>
+      <a href="oferta.html" class="kategoria-card">
+        <div class="kategoria-icon">🎵</div>
+        <h3>Gitary basowe</h3>
+        <p>Fundament każdego zespołu. Solidne instrumenty dla basistów wszystkich poziomów.</p>
+        <div class="kategoria-price">Od 650 zł</div>
+      </a>
+    </div>
+  </section>
+
+  <section class="polecane">
+    <div class="section-eyebrow">Bestsellery</div>
+    <h2 class="section-title">Polecane produkty</h2>
+    <p class="section-subtitle">Najpopularniejsze instrumenty w naszym sklepie, wybrane przez tysiące muzyków.</p>
+    <div class="produkty-grid">
+      <div class="produkt-card">
+        <div class="produkt-img">🎸</div>
+        <div class="produkt-info">
+          <div class="marka">Fender</div>
+          <h4>Stratocaster Player</h4>
+          <div class="cena">2 499 zł</div>
+        </div>
+      </div>
+      <div class="produkt-card">
+        <div class="produkt-img">🎸</div>
+        <div class="produkt-info">
+          <div class="marka">Gibson</div>
+          <h4>Les Paul Standard</h4>
+          <div class="cena">5 999 zł</div>
+        </div>
+      </div>
+      <div class="produkt-card">
+        <div class="produkt-img">🎸</div>
+        <div class="produkt-info">
+          <div class="marka">Yamaha</div>
+          <h4>FG800 Acoustic</h4>
+          <div class="cena">899 zł</div>
+        </div>
+      </div>
+      <div class="produkt-card">
+        <div class="produkt-img">🎵</div>
+        <div class="produkt-info">
+          <div class="marka">Ibanez</div>
+          <h4>SR300E Bass</h4>
+          <div class="cena">1 299 zł</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="o-nas">
+    <div class="o-nas-grid">
+      <div>
+        <div class="section-eyebrow">O nas</div>
+        <h2 class="section-title">Pasja do muzyki od ponad 15 lat</h2>
+        <p class="section-subtitle">GuitarShop to więcej niż sklep — to miejsce, gdzie każdy muzyk znajdzie swój instrument. Nasi eksperci doradzą, pomogą wybrać i skonfigurować gitarę marzeń.</p>
+        <a href="kontakt.html" class="btn-outline">Poznaj nas lepiej</a>
+        <div class="o-nas-stats">
+          <div class="stat">
+            <div class="stat-number">15+</div>
+            <div class="stat-label">Lat doświadczenia</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">500+</div>
+            <div class="stat-label">Modeli gitar</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">12k</div>
+            <div class="stat-label">Zadowolonych klientów</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">30+</div>
+            <div class="stat-label">Marek w ofercie</div>
+          </div>
+        </div>
+      </div>
+      <div class="o-nas-visual">🎸</div>
+    </div>
+  </section>
+
+  <section class="galeria">
+    <div class="section-eyebrow">Galeria</div>
+    <h2 class="section-title">Nasze instrumenty</h2>
+    <p class="section-subtitle">Zajrzyj do naszego salonu — setki instrumentów czeka na Ciebie.</p>
+    <div class="galeria-grid">
+      <div class="galeria-item">🎸<div class="galeria-overlay">🔍</div></div>
+      <div class="galeria-item">⚡<div class="galeria-overlay">🔍</div></div>
+      <div class="galeria-item">🎵<div class="galeria-overlay">🔍</div></div>
+      <div class="galeria-item">🎼<div class="galeria-overlay">🔍</div></div>
+      <div class="galeria-item">🎶<div class="galeria-overlay">🔍</div></div>
+    </div>
+  </section>
+
+  <section class="kontakt">
+    <div class="kontakt-grid">
+      <div class="kontakt-info">
+        <div class="section-eyebrow">Kontakt</div>
+        <h2 class="section-title">Masz pytania?</h2>
+        <p class="section-subtitle">Chętnie doradzimy w wyborze instrumentu. Napisz lub zadzwoń — nasi eksperci są do Twojej dyspozycji.</p>
+        <div class="kontakt-item">
+          <div class="kontakt-icon">📍</div>
+          <div><strong>Adres</strong><p>ul. Muzyczna 1, 20-001 Lublin</p></div>
+        </div>
+        <div class="kontakt-item">
+          <div class="kontakt-icon">📞</div>
+          <div><strong>Telefon</strong><p>+48 123 456 789</p></div>
+        </div>
+        <div class="kontakt-item">
+          <div class="kontakt-icon">📧</div>
+          <div><strong>E-mail</strong><p>kontakt@guitarshop.pl</p></div>
+        </div>
+        <div class="kontakt-item">
+          <div class="kontakt-icon">🕐</div>
+          <div><strong>Godziny otwarcia</strong><p>Pon–Pt: 10:00–18:00<br>Sob: 10:00–14:00</p></div>
+        </div>
+      </div>
+      <form class="kontakt-form" onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Imię</label>
+            <input type="text" placeholder="Jan">
+          </div>
+          <div class="form-group">
+            <label>Nazwisko</label>
+            <input type="text" placeholder="Kowalski">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>E-mail</label>
+          <input type="email" placeholder="jan@example.com">
+        </div>
+        <div class="form-group">
+          <label>Temat</label>
+          <input type="text" placeholder="Zapytanie o produkt">
+        </div>
+        <div class="form-group">
+          <label>Wiadomość</label>
+          <textarea placeholder="Napisz do nas..."></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Wyślij wiadomość →</button>
+        <div id="success-msg" style="display:none; color:#C9A84C; margin-top:12px; font-size:14px;">
+          ✓ Wiadomość wysłana! Skontaktujemy się wkrótce.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-logo-text">Guitar<span>Shop</span></div>
+        <p>Twój sklep gitarowy od 2008 roku. Oferujemy starannie wyselekcjonowane instrumenty dla muzyków na każdym poziomie zaawansowania.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Social Media</h4>
+        <div class="social-btns">
+          <a href="#" class="social-btn">Facebook</a>
+          <a href="#" class="social-btn">Instagram</a>
+          <a href="#" class="social-btn">YouTube</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <p>📍 ul. Muzyczna 1, Lublin</p>
+        <p>📞 +48 123 456 789</p>
+        <p>📧 kontakt@guitarshop.pl</p>
+        <p>🕐 Pon–Pt: 10:00–18:00</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2024 GuitarShop. Wszelkie prawa zastrzeżone.</div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobileNav').classList.toggle('open');
+    }
+    function handleSubmit(e) {
+      e.preventDefault();
+      document.getElementById('success-msg').style.display = 'block';
+      e.target.reset();
+    }
+  </script>
+
+</body>
+</html>

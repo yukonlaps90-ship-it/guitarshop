@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oferta — GuitarShop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo">Guitar<span>Shop</span></a>
+    <nav>
+      <a href="index.html">Strona główna</a>
+      <a href="oferta.html" class="active">Sklep</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="oferta.html" class="nav-cta">Przeglądaj ofertę</a>
+    </nav>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Strona główna</a>
+    <a href="oferta.html">Sklep</a>
+    <a href="kontakt.html">Kontakt</a>
+    <a href="oferta.html" class="nav-cta" style="width:fit-content;">Przeglądaj ofertę</a>
+  </div>
+
+  <div class="page-hero">
+    <div class="section-eyebrow">Nasza oferta</div>
+    <h1>Sklep</h1>
+    <p>Ponad 500 modeli gitar w jednym miejscu</p>
+  </div>
+
+  <div class="oferta-section">
+    <div class="oferta-category-title">Gitary akustyczne</div>
+    <div class="oferta-grid">
+      <div class="produkt-card"><div class="produkt-img">🎸</div><div class="produkt-info"><div class="marka">Yamaha</div><h4>FG800</h4><div class="cena">899 zł</div></div></div>
+      <div class="produkt-card"><div class="produkt-img">🎸</div><div class="produkt-info"><div class="marka">Fender</div><h4>CD-60S</h4><div class="cena">1 199 zł</div></div></div>
+      <div class="produkt-card"><div class="produkt-img">🎸</div><div class="produkt-info"><div class="marka">Taylor</div><h4>Academy 10</h4><div class="cena">2 499 zł</div></div></div>
+    </div>
+
+    <div class="oferta-category-title">Gitary elektryczne</div>
+    <div class="oferta-grid">
+      <div class="produkt-card"><div class="produkt-img">⚡</div><div class="produkt-info"><div class="marka">Fender</div><h4>Stratocaster Player</h4><div class="cena">2 499 zł</div></div></div>
+      <div class="produkt-card"><div class="produkt-img">⚡</div><div class="produkt-info"><div class="marka">Gibson</div><h4>Les Paul Standard</h4><div class="cena">5 999 zł</div></div></div>
+      <div class="produkt-card"><div class="produkt-img">⚡</div><div class="produkt-info"><div class="marka">Epiphone</div><h4>SG Standard</h4><div class="cena">1 299 zł</div></div></div>
+    </div>
+
+    <div class="oferta-category-title">Gitary basowe</div>
+    <div class="oferta-grid">
+      <div class="produkt-card"><div class="produkt-img">🎵</div><div class="produkt-info"><div class="marka">Ibanez</div><h4>SR300E</h4><div class="cena">1 299 zł</div></div></div>
+      <div class="produkt-card"><div class="produkt-img">🎵</div><div class="produkt-info"><div class="marka">Fender</div><h4>Precision Bass</h4><div class="cena">2 899 zł</div></div></div>
+      <div class="produkt-card"><div class="produkt-img">🎵</div><div class="produkt-info"><div class="marka">Squier</div><h4>Classic Vibe Bass</h4><div class="cena">899 zł</div></div></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-logo-text">Guitar<span>Shop</span></div>
+        <p>Twój sklep gitarowy od 2008 roku.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Social Media</h4>
+        <div class="social-btns">
+          <a href="#" class="social-btn">Facebook</a>
+          <a href="#" class="social-btn">Instagram</a>
+          <a href="#" class="social-btn">YouTube</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <p>📍 ul. Muzyczna 1, Lublin</p>
+        <p>📞 +48 123 456 789</p>
+        <p>📧 kontakt@guitarshop.pl</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2024 GuitarShop. Wszelkie prawa zastrzeżone.</div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobileNav').classList.toggle('open');
+    }
+  </script>
+
+</body>
+</html>
